@@ -1,0 +1,13 @@
+
+version = 1
+
+[[analyzers]]
+name = "java"
+enabled = true
+
+  [analyzers.meta]
+  gradle_modules = [
+    ":core",
+    ":geode"
+  ]
+  java_version = 11
